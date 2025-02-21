@@ -1,14 +1,14 @@
 {
   "name": "thijsl",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
-    "start": "node server.js",
+    "start": "eleventy --serve --port $PORT",
     "postinstall": "npm run build",
     "deploy": "git add . && git commit -m \"Deploy update\" && git push gandi main"
   },
