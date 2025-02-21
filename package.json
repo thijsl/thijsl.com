@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve --port $PORT"
+    "start": "./node_modules/.bin/eleventy --serve --port $PORT"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thijsl/thijsl.com#readme",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
 }
