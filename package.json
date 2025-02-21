@@ -1,14 +1,11 @@
 {
   "name": "thijsl",
   "version": "1.0.0",
-  "main": "server.js",
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "eleventy --serve",
-    "build": "eleventy"
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,9 +19,6 @@
   },
   "homepage": "https://github.com/thijsl/thijsl.com#readme",
   "description": "",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
