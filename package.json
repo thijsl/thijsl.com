@@ -19,6 +19,7 @@
   "homepage": "https://github.com/thijsl/thijsl.com#readme",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "eleventy-plugin-youtube-embed": "^1.12.0"
   }
 }
