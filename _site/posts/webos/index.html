@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thijs Lowette - webOS TV 22 - What&#39;s New?</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/projects/">Projects</a> |
+        <a href="/blog/">Blog</a> |
+        <a href="mailto:lowette+thijsl.com@gmail.com">Email</a> |
+        <a href="https://www.linkedin.com/in/thijsl/" target="_blank">LinkedIn</a>
+    </nav>
+
+    <main>
+        <p>LG released documentation on their latest webOS TV 22 operating system. So what should app developers take into account?</p>
+<ul>
+<li>Versioning scheme</li>
+<li>Simulators instead of emulators</li>
+<li>VS Code instead of deprecated IDE</li>
+<li>Chromium 87</li>
+<li>No new formats / codecs supported</li>
+</ul>
+<p>The LG webOS operating system (OS) versioning scheme is now using years. The previous OS version introduced in 2021 was called <a href="https://ottball.com/webos-tv-6-0-whats-new/">webOS TV 6.0</a>, but the new 2022 version is called webOS TV 22.</p>
+<p>And, even though the new OS is called &quot;webOS TV 22&quot;, its SDK is called <a href="https://webostv.developer.lge.com/sdk/webos-tv-sdk/release-notes/">7.X.X</a>.</p>
+<p>webOS TV 22 no longer supports <a href="https://webostv.developer.lge.com/sdk/tools/emulator/introduction-emulator/">emulators</a>, and relies on <a href="https://webostv.developer.lge.com/sdk/Simulator/introduction-simulator/">simulators</a> instead. Note that simulators don't support DRM, and that the audio and video specifications differ from real devices. Additionally, some native APIs aren't support on simulators.</p>
+<p>The <a href="https://webostv.developer.lge.com/sdk/tools/ide/">webOS TV IDE is no longer supported</a>, and the VS Code extension should be used instead.</p>
+<p>This version of webOS uses Chromium 87 instead of Chromium 79. The new user agent is listed below:</p>
+<p>(You might want to check the relevant <a href="https://developer.chrome.com/blog/new-in-chrome-80/">Chromium release notes</a>.)</p>
+<p>When comparing supported media formats between <a href="https://webostv.developer.lge.com/discover/specifications/supported-media-formats/webos-22/">webOS 22</a> and <a href="https://webostv.developer.lge.com/discover/specifications/supported-media-formats/webos-60/">webOS 6.0</a>, it seems that no support for new codecs or formats has been added to webOS 22. The same statement is true for MSE and EME specifications, or DRM systems.</p>
+<p>Interested in the changes visible to consumers? Check the links below.</p>
+<ul>
+<li><a href="https://www.techweekmag.com/news/tv/webos-22-and-how-it-differs-from-webos-60/">https://www.techweekmag.com/news/tv/webos-22-and-how-it-differs-from-webos-60/</a></li>
+<li><a href="https://www.gearrice.com/update/webos-22-proposes-big-changes-to-lgs-new-oleds-and-qneds/">https://www.gearrice.com/update/webos-22-proposes-big-changes-to-lgs-new-oleds-and-qneds/</a></li>
+<li><a href="https://beebom.com/lg-new-smart-tv-lineup-webos-22-ces-2022/">https://beebom.com/lg-new-smart-tv-lineup-webos-22-ces-2022/</a></li>
+</ul>
+
+    </main>
+</body>
+</html> 
