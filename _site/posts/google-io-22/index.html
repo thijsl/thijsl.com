@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Thijs Lowette - OTT news at Google I/O 2022</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/projects/">Projects</a> |
+        <a href="/blog/">Blog</a> |
+        <a href="mailto:lowette+thijsl.com@gmail.com">Email</a> |
+        <a href="https://www.linkedin.com/in/thijsl/" target="_blank">LinkedIn</a>
+    </nav>
+
+    <main>
+        <h1>OTT news at Google I/O 2022</h1>
+<p><em>I watched Google I/O 2022 so you don't have to! Below are crisp summaries of what Google has in store for us on Google TV, Android TV, Android Media and ExoPlayer.</em></p>
+<p>Google I/O is Google's yearly developer conference. If you're a video streaming enthusiast, I'd recommend you to spend 30 minutes watching the presentations on &quot;<a href="https://www.youtube.com/watch?v=uZTOaKFnNTw">What's new with Android TV and Google TV</a>&quot; and &quot;<a href="https://www.youtube.com/watch?v=Ba70zmFZgk0">What's new in Android media</a>&quot;. If you can spare two hours, you could watch the <a href="https://io.google/2022/program/8e80903f-955f-4a5b-9118-b0ce4acdb0e6/">keynote</a> – or skim a <a href="https://www.theverge.com/2022/5/11/23066583/google-io-2022-biggest-announcements-pixel-watch-6a-buds-tablet">recap</a>.</p>
+<p>The next two sections outline these first two presentations. Click the timecode in &quot;the timeline&quot; (below the video) to be taken to that part of the presentation. (<em>You might need to click the Play-button again on some devices to resume video playback.</em>)</p>
+<h1>What's new with Android TV and Google TV (in 2022)</h1>
+<p>This talk focuses on reviewing their recent progress, recapping Android 12, and highlighting the (upcoming) Android 13 updates.</p>
+<div id="uZTOaKFnNTw" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/uZTOaKFnNTw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>The timeline:</p>
+<ul>
+<li>02:23: Majority of the newly activated devices run Google TV instead of Android TV. Remember: Google TV is the successor of Android TV.</li>
+<li>02:40: Profiles &amp; Kids profiles (personalized)</li>
+<li>04:49: Virtual remote (with the Google TV app)</li>
+<li>05:30: Cast from Google TV app (which aggregates content)</li>
+<li>07:58: Android 12 recap (framerate switching; 4K UI; text scaling; kids profiles)</li>
+<li>09:00: Android 13 (performance &amp; quality; input &amp; accessibility; multitasking)
+<ul>
+<li>09:12: AudioManager (useful to find best audio format for the active device)</li>
+<li>11:09: HDMI state changes (e.g. pause content if HDMI device is no longer the active source)</li>
+<li>11:26: Keyboard layouts</li>
+<li>12:08: Audio description (system-wide preference that allows users to enable audio descriptions across apps through AccessibilityManager API)</li>
+<li>12:45: Picture-in-Picture (including expanded PiP and Keep-clear API)</li>
+<li>16:18: Media Controller Test</li>
+<li>16:45: MediaSession Validator</li>
+</ul>
+</li>
+</ul>
+<h1>What's new in Android media</h1>
+<p><a href="https://developer.android.com/jetpack/androidx/releases/media3">Media3</a> is Android's collection of libraries related to media playback, including ExoPlayer. This talk focuses on the new Android 13 capabilities, as well as updates to ExoPlayer.</p>
+<div id="Ba70zmFZgk0" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/Ba70zmFZgk0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>The timeline:</p>
+<ul>
+<li>00:50: New platform capabilities in Android 13
+<ul>
+<li>01:06: HDR video (for use cases related to editing)</li>
+<li>04:52: Spatial Audio through the Spatializer Class
+<ul>
+<li>ExoPlayer 2.17 has support for spatial audio</li>
+</ul>
+</li>
+<li>07:20: MIDI 2.0</li>
+</ul>
+</li>
+<li>07:48: Media3 &amp; ExoPlayer
+<ul>
+<li>09:01: New features in ExoPlayer</li>
+<li>09:43: Performance Class and Jetpack Core Performance Library</li>
+<li>11:55: Using AV1 for content delivery</li>
+</ul>
+</li>
+</ul>
+<p>const spans = document.querySelectorAll('.post-content ul li span'); for (let i = 0; i &lt; spans.length; i++) { const span = spans[i]; const videoId = parseInt(span.parentElement.parentElement.dataset.videoid); const youtubeId = (videoId == 0) ? &quot;uZTOaKFnNTw&quot; : &quot;Ba70zmFZgk0&quot;; const iframe = document.querySelectorAll('iframe')[videoId]; span.addEventListener('click', () =&gt; { let start = span.innerText.split(&quot;:&quot;); start = parseInt(start[0])*60+parseInt(start[1]); iframe.src = &quot;https://www.youtube.com/embed/&quot;+youtubeId+&quot;?autoplay=1&amp;start=&quot;+start+&quot;&amp;feature=oembed&quot;; }); }</p>
+<p>That's it. That's the post. 🏳</p>
+
+    </main>
+</body>
+</html> 
