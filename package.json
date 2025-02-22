@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/eleventy --serve --port $PORT"
+    "start": "./node_modules/.bin/eleventy --serve --port $PORT",
+    "build": "./node_modules/.bin/eleventy"
   },
   "repository": {
     "type": "git",
